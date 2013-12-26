@@ -1,67 +1,183 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Euro-sys.github.io by euro-sys</title>
+<!DOCTYPE html>
+<!--[if IE 7 ]>
+<html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie8 oldie"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html> <!--<![endif]-->
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8"/>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Евросистем</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css"/>
 
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="without-description">
-        <h1>Euro-sys.github.io</h1>
-        <p></p>
-        <p class="view"><a href="https://github.com/euro-sys">View the Project on GitHub <small>euro-sys</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/euro-sys/euro-sys.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.6.1.min.js"><\/script>')</script>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+    <script src="js/jquery.smoothscroll.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="js/init.js"></script>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+</head>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<body>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<!-- header-wrap -->
+<div id="header-wrap">
+    <header>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+        <hgroup>
+            <h1><a href="index.html">Евросистем</a></h1>
+        </hgroup>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <nav>
+            <ul>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#about-us">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+    </header>
+</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<!-- content-wrap -->
+<div class="content-wrap">
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+    <!-- main -->
+    <section id="main">
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+        <div class="intro-box">
+            <h1>Добро пожадовать</h1>
+
+            <p class="intro" id="sloganContainer"></p>
+
+        </div>
+
+        <div class="slider-wrapper">
+
+            <div id="slider" class="nivoSlider">
+                <img src="images/slides/slide1.jpg" width="383" height="198" alt=""/>
+                <img src="images/slides/slide2.jpg" width="383" height="198" alt=""/>
+                <img src="images/slides/slide3.jpg" width="383" height="198" alt=""/>
+            </div>
+        </div>
+
+        <div class="row no-bottom-margin">
+
+            <section class="col mid">
+            </section>
+        </div>
+
+        <a class="back-to-top" href="#main">Back to Top</a>
+
+    </section>
+
+    <!-- about us -->
+    <section id="about-us" class="clearfix">
+
+        <h1>О нас</h1>
+
+        <div class="primary">
+
+            <p class="intro" id="aboutContainer"></p>
+
+            <div class="row no-bottom-margin">
+
+                <section class="col first">
+                </section>
+
+            </div>
+
+        </div>
+
+        <aside>
+
+            <p id="introContainer"></p>
+
+        </aside>
+
+        <a class="back-to-top" href="#main">Back to Top</a>
+
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="clearfix">
+
+        <h1>Всегда на связи</h1>
+
+        <div class="primary">
+
+            <p class="intro" id="contactsContainer"></p>
+
+            <form method="post" action="contact.php" id="contactform">
+
+                <div>
+                    <p>Обратная связь</p>
+                </div>
+
+                <div>
+                    <label>Name <span class="required">*</span></label>
+                    <input name="name" type="text" id="name" value=""/>
+                </div>
+
+                <div>
+                    <label>Email <span class="required">*</span></label>
+                    <input name="email" type="text" id="email" value=""/>
+                </div>
+
+                <div>
+                    <label>Website</label>
+                    <input name="website" type="text" id="website" value=""/>
+                </div>
+
+                <div>
+                    <label>Subject</label>
+                    <input name="subject" type="text" id="subject" value=""/>
+                </div>
+
+                <div>
+                    <label>Message <span class="required">*</span></label>
+                    <textarea name="message" rows="20" cols="50" id="message"></textarea><br/><br/>
+                </div>
+
+                <div>
+                    <input type="submit" value="Отправить" class="button">
+                    <input type="reset" value="Очистить" class="button">
+                </div>
+
+
+            </form>
+
+        </div>
+
+        <a class="back-to-top" href="#main">Back to Top</a>
+
+    </section>
+
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-content">
     </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+</footer>
+    <script type="text/javascript" src="js/content.js"></script>
+</body>
 </html>
